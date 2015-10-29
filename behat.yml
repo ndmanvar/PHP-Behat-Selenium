@@ -7,7 +7,7 @@ default:
       javascript_session:  'selenium2'
       goutte: ~
       selenium2: 
-        wd_host: 'KevinMarkVI:105a063b-8837-4c2d-b323-d6a86c71ff97@ondemand.saucelabs.com/wd/hub'
+        wd_host: 'SAUCE_USERNAME:SAUCE_ACCESS_KEY@ondemand.saucelabs.com/wd/hub'
 
 firefox:
   context:
