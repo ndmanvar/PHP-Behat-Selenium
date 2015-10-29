@@ -1,9 +1,9 @@
 #Usage
 
-Add Sauce Username and Access Key to your environment:
+Add Sauce Username and Access Key to build.yml line 10:
 ```
-$ export SAUCE_USERNAME=user_name
-$ export SAUCE_ACCESS_KEY=access_key
+SAUCE_USERNAME=user_name
+SAUCE_ACCESS_KEY=access_key
 ```
 
 Install Behat, Mink, MinkExtension and their dependencies with composer:
